@@ -42,13 +42,11 @@ public class MobileControls : MonoBehaviour {
 
     public void Melee()
     {
-        Debug.Log("Melee");
         this.melee.Attack();
     }
 
     public void Shoot()
     {
-        Debug.Log("Shoot");
         this.shoot.Attack();
     }
 
