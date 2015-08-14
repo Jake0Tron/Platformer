@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="30" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="sheet_13" tilewidth="32" tileheight="32" tilecount="180">
+  <image source="../Environment/sheet_13.png" width="640" height="288"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object id="0" x="13.6364" y="11.0909">
+     <polygon points="0,0 0,21.2727 18.3636,20.9091"/>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Sky" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMw6D6lzKVF3JIWDVVVVVVVVX1xQNhaquN
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlgEOgjAMRYtyBdQrKFxB3Xk9pVugSVNbtpEgRfuTZgZI3Vt/twG4XC6X61fVxDgsiOMWk10gztfHeMR4Vo5ByGlxDTrI85xiXKY4K98FljM9v4EdbqwBrafGhfOeq38guTv23gK3VNcQ4zXFACPzEj9zXpp/K2m8tJ97yPsbo53yNuQ9X6+wNtSMKC/O7w5l+1Xyp+TNxHqFkX2AzzqHtWAKRHkDeVbrX+4H3uuWeVNNqEepH7mHWyFPbsT/2UISLxflb5Vv9shLPTh3bkh3r1y/429LvKV1qOlva7zoVem+xOst7T8nKD+fsfe1nvimtPthbkxrInnZKidK2pNr+bl3LXJqknyu3aule9ZeOLm0s6jkjHK5XC6X65/0BmMRRj8=
+  </data>
+ </layer>
+</map>

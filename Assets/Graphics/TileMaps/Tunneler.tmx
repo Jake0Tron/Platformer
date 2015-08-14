@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="30" tilewidth="128" tileheight="128" nextobjectid="1">
+ <tileset firstgid="1" name="spritesheet_ground" tilewidth="128" tileheight="128" tilecount="128">
+  <image source="../../../../PlatformerPack/Spritesheets/spritesheet_ground.png" width="1024" height="2048"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 0,128 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 0,128 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <objectgroup draworder="index">
+    <object id="0" x="-4" y="-4" width="174" height="58"/>
+   </objectgroup>
+  </tile>
+  <tile id="8">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 0,128 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="9">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 0,128 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="11">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 0,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="16">
+   <objectgroup draworder="index">
+    <object id="0" x="128" y="0">
+     <polygon points="0,0 0,128 -128,128 -128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="19">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="24">
+   <objectgroup draworder="index">
+    <object id="0" x="127.5" y="1">
+     <polygon points="0,0 0.5,127 -127.5,127"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="32">
+   <objectgroup draworder="index">
+    <object id="0" x="0.333333" y="1.33333">
+     <polygon points="0,0 -0.333333,126.667 127.667,126.667"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="34">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 0,128 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="35">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 0,128 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="42">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="1">
+     <polygon points="0,0 0,127 128,127 128,-1"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="46">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 128,0 0,128"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="50">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 0,128 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="54">
+   <objectgroup draworder="index">
+    <object id="0" x="129" y="1">
+     <polygon points="0,0 -1,127 -129,-1"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="58">
+   <objectgroup draworder="index">
+    <object id="0" x="128" y="0">
+     <polygon points="0,0 0,128 -128,128"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="78">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 0,128 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="85">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 0,128 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="88">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 0,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="93">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 0,128 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="94">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 0,128 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="96">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="101">
+   <objectgroup draworder="index">
+    <object id="0" x="128" y="0">
+     <polygon points="0,0 0,128 -128,128 -128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="102">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="40">
+     <polygon points="0,0 0,88 128,88 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="104">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 128,0 0,128"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="112">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="122">
+   <objectgroup draworder="index">
+    <object id="0" x="-24" y="0" width="152" height="56"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Border" width="120" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztmDsPQUEQhZdOopFoJBqJTqn0C5QapV5U/n+DhORi3Z33zrpzkhPNPs7Md3ddZimlSfgvPbp7nOQ1DruyhmrXZNkLr3k1+X7u0YJbEoZv7u4+K+Xx6taE4ZuzJmvI/sG3X6/cp46PP8aUbMEaolb5LhLvPTjXc+75HRprLT3Y7hWyafH1wroFvhJsa/K1ut9ykua7YubJ3cESbFvji/mO4QqT/5DojKXOqWe+2FyW51/jOaWuH3x1hMk8QX565wtR63z79vbuvlog9ULkie810b/HJWrwoH/my11nSHzXwPXWBEutw92TmsOzIBkxtQXfd22engL3m3fmQLTtjM85+NJrx/QOI+l7oSZfyp4t8tXMCKmBmhEz1qovwfc7AzUjdjw0e/CVkzRf6hzofMv+BF/cvJx2Kf/OF3zLWgJroGbk6sH2Utij9vPPkXb+0u+j13mhZuRIk+1Q+GpnpEqbbfCVy1i6H/r+V9E0JVfXWEnXaCULFh5du09Wqt3nIZt7B0Hv0RupsZls
+  </data>
+ </layer>
+ <layer name="Walls" width="120" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2EsOhCAQRVF2yA7c/zKcEz8Ir7B4uSfpxAlWdV8HHUsBAGRS/14Aw3ra0Xdf9PVGX2/15hoe6OuNvt6y9s20y86y9G1n01eDvt7UfUfvQd8Y9PVGX2/0fda7R5Z9W1/fTx4XH8Uz4tp39nus+B3eZkT8B6ev5rxiBn3pq565Cn1jdqCv5rxiBn3puyv6evedRV9v9PXm0Bdx6OuNvlA5AQPaJfI=
+  </data>
+ </layer>
+ <layer name="Extra" width="120" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2L0OQDAUBlCDhVcxGD2L0XN4eZVYNIQiRHpO8sXf0tS92igKAAAA2DaEVCF94rMc1CfOgWu6kPbrQfxMHR25Z17jcl3fcuR9AwBbypDxxD3yow7SzXPWLDF3HNFjpHqqZvyT1H/se6s21CCs9872z3zJNxnSxX1zdA3wtgnibwvC
+  </data>
+ </layer>
+ <layer name="SPIKES" width="120" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2cEJADAIA0C3df8NuoD4KKWPcAfBERKwCgAAAADy9RCAn/ryAqSa9tkWANjoFAAAAABe88sgxQGFzhLq
+  </data>
+ </layer>
+</map>

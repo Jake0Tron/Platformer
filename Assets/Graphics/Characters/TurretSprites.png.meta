@@ -1,0 +1,553 @@
+fileFormatVersion: 2
+guid: 4786cabb88bf614449424860461eb530
+timeCreated: 1439299900
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_0
+    21300002: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_1
+    21300004: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_2
+    21300006: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_3
+    21300008: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_4
+    21300010: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_5
+    21300012: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_6
+    21300014: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_7
+    21300016: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_8
+    21300018: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_9
+    21300020: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_10
+    21300022: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_11
+    21300024: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_12
+    21300026: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_13
+    21300028: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_14
+    21300030: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_15
+    21300032: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_16
+    21300034: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_17
+    21300036: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_18
+    21300038: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_19
+    21300040: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_20
+    21300042: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_21
+    21300044: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_22
+    21300046: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_23
+    21300048: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_24
+    21300050: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_25
+    21300052: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_26
+    21300054: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_27
+    21300056: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_28
+    21300058: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_29
+    21300060: Bullet
+    21300062: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_31
+    21300064: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_32
+    21300066: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_33
+    21300068: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_34
+    21300070: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_35
+    21300072: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_36
+    21300074: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_37
+    21300076: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_38
+    21300078: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_39
+    21300080: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_40
+    21300082: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_41
+    21300084: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_42
+    21300086: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_43
+    21300088: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_44
+    21300090: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_45
+    21300092: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_46
+    21300094: PtDR0-bItkvUBwo8A2trz32vPa7XiE-u_m9nfDxYAk0_47
+    21300096: TurretSprites_0
+    21300098: TurretSprites_1
+    21300100: TurretSprites_2
+    21300102: TurretSprites_3
+    21300104: TurretSprites_4
+    21300106: TurretSprites_5
+    21300108: TurretSprites_6
+    21300110: TurretSprites_7
+    21300112: TurretSprites_8
+    21300114: TurretSprites_9
+    21300116: TurretSprites_10
+    21300118: TurretSprites_11
+    21300120: TurretSprites_12
+    21300122: TurretSprites_13
+    21300124: TurretSprites_14
+    21300126: TurretSprites_15
+    21300128: TurretSprites_16
+    21300130: TurretSprites_17
+    21300132: TurretSprites_18
+    21300134: TurretSprites_19
+    21300136: TurretSprites_20
+    21300138: TurretSprites_21
+    21300140: TurretSprites_22
+    21300142: TurretSprites_23
+    21300144: TurretSprites_24
+    21300146: TurretSprites_25
+    21300148: TurretSprites_26
+    21300150: TurretSprites_27
+    21300152: TurretSprites_28
+    21300154: TurretSprites_29
+    21300156: TurretSprites_31
+    21300158: TurretSprites_32
+    21300160: TurretSprites_33
+    21300162: TurretSprites_34
+    21300164: TurretSprites_35
+    21300166: TurretSprites_36
+    21300168: TurretSprites_37
+    21300170: TurretSprites_38
+    21300172: TurretSprites_39
+    21300174: TurretSprites_40
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 18
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TurretSprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 59
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 38
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 38
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 38
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 38
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 38
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 38
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 38
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 38
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 38
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 38
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 38
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 38
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_29
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 38
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bullet
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 47
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_32
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 17
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 17
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 17
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 17
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 17
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 17
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_38
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 17
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_39
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 17
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TurretSprites_40
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 17
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

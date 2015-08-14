@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="30" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="Grass/Dirt" tilewidth="16" tileheight="16" tilecount="36">
+  <image source="../Environment/yzfCODk.png" width="96" height="96"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object id="0" x="16.0909" y="1.375">
+     <polygon points="0,0 0,14.7457 -15.9659,14.875"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.454545" y="1" width="16.7273" height="15.1818"/>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.272727" y="2">
+     <polygon points="0,0 0,14 15.7727,14"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="6">
+   <objectgroup draworder="index">
+    <object id="0" x="3" y="0" width="13" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="7">
+   <objectgroup draworder="index">
+    <object id="0" x="0.125" y="-0.125" width="16" height="16.25"/>
+   </objectgroup>
+  </tile>
+  <tile id="8">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="13.625" height="16.125"/>
+   </objectgroup>
+  </tile>
+  <tile id="12">
+   <objectgroup draworder="index">
+    <object id="0" x="0.875" y="0.25">
+     <polygon points="0,0 14.875,0 14.875,14.125"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="13">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="-0.125" width="16.125" height="15"/>
+   </objectgroup>
+  </tile>
+  <tile id="14">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 0,14.625 15,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="37" name="spritesheet_ground" tilewidth="128" tileheight="128" tilecount="128">
+  <image source="../../../../PlatformerPack/Spritesheets/spritesheet_ground.png" width="1024" height="2048"/>
+ </tileset>
+ <layer name="Border" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2DEOwCAQA8Er+f+LozzAEing4vOuROeCKWhYVbUCj3O7959gfcOrd3j9wqt3eP3Cq3d4/cKrd3j9wqt3eP3Cq3cTvLvhnV2qN8V84h+3+1/59Pni7e4v97hVqjfB3P3uu84D0VwIkQ==
+  </data>
+ </layer>
+ <layer name="Walls" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlsEOwiAMQCceiAf1tl30/3/TmEjSNOuKpcBKeRe6hbE+VgbLMhmRF4hv3bIoJ/5aziGCePraobdvyLynRfLYmHdSvq3z5eDySR5v1OeBrmc928SybyDiIyhf/PwK4rP4SqB88fqVnjck36AmlutZgldf6f6LCTvPnomR9t+A2j1a1TOVQ+ta8Lp+vfv+e96ouc+2WAta541elM7/KPWci5bvFcSXgnFqE/kuWcC50hqzBivfJQsrvlo8QXzvlkUe3+/h4V+V8Og7GZsPgdMD8g==
+  </data>
+ </layer>
+ <layer name="Ground" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztmEELwjAMhYsX50G96WX+/7+pYxRKaDWmSZun+eBdRun6RvIyuqSUlj/T46ULqFamh7xuEzpcD+EXk5l+Dw1Zsnm4M97Z8jvyrJ/gfL/sgWYUJeoZE1S/0j7i9OQt2efVKGoear0s8espyzKo9SzFm1/rmdw7f0s81W2LX5m/3FoYUc+tGp1RC97615rwK/vfsKpPzV44pz2bruQ5+v2GRkYg+dUg+63Naq4o0n2sVfZvj06F16PSnp71jd/Z976rwhko79bSDA0CbXqyGU1aGY2kJ5DtEjY=
+  </data>
+ </layer>
+</map>
