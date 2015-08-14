@@ -18,14 +18,19 @@ public class PlayerMeleeAttack : MonoBehaviour {
         anim = gameObject.GetComponent<Animator>();
         attackTrigger.enabled = false;
 	}
+
+    public void Attack()
+    {
+        attacking = true;
+        attackTimer = attackCD;
+        attackTrigger.enabled = true;
+    }
 	
 	// Update is called once per frame
 	void Update () {
         if (Input.GetKeyDown("f") && !attacking)
         {
-            attacking = true;
-            attackTimer = attackCD;
-            attackTrigger.enabled = true;
+            Attack();
         }
         if (attacking)
         {

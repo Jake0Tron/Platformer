@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     private GameMaster gm;
     public Rigidbody2D rb;
     private Animator anim;
+    public MobileControls mobi;
 
     public Transform wallCheckPoint;
     public bool wallCheck;
@@ -70,10 +71,40 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        this.mobi = GetComponent<MobileControls>();
         this.remainingHealth = this.maxHealth;
         this.rb = gameObject.GetComponent<Rigidbody2D>();
         this.anim = gameObject.GetComponent<Animator>();
         this.gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
+    }
+    public void Jump()
+    {
+        // Double Jump capability
+        if (grounded)
+        {
+            this.rb.AddForce(Vector2.up * jumpPower);
+            this.canDblJump = true;
+        }
+        else if (!grounded && canDblJump)
+        {
+            this.canDblJump = false;
+            this.rb.velocity = new Vector2(rb.velocity.x, 0);
+            this.rb.AddForce(Vector2.up * this.jumpPower);
+        }
+    }
+
+    public void MoveLeft()
+    {
+        transform.localScale = new Vector3(-1, 1, 1);
+        facingRight = false;
+        rb.AddForce((Vector2.right * -speed));
+    }
+
+    public void MoveRight()
+    {
+        transform.localScale = new Vector3(1, 1, 1);
+        facingRight = true;
+        rb.AddForce((Vector2.right * speed));
     }
 
     void Update()
@@ -94,30 +125,17 @@ public class PlayerController : MonoBehaviour
         // adjust direction
         if (Input.GetAxis("Horizontal") < -0.1f)
         {
-            transform.localScale = new Vector3(-1, 1, 1);
-            facingRight = false;
+            MoveLeft();
         }
         if (Input.GetAxis("Horizontal") > 0.1f)
         {
-            transform.localScale = new Vector3(1, 1, 1);
-            facingRight = true;
+            MoveRight();
         }
 
         // Jumping - space
         if (Input.GetButtonDown("Jump"))
         {
-            // Double Jump capability
-            if (grounded)
-            {
-                this.rb.AddForce(Vector2.up * jumpPower);
-                this.canDblJump = true;
-            }
-            else if (!grounded && canDblJump)
-            {
-                this.canDblJump = false;
-                this.rb.velocity = new Vector2(rb.velocity.x, 0);
-                this.rb.AddForce(Vector2.up * this.jumpPower);
-            }
+            Jump();            
         }
     }
 

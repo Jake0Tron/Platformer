@@ -12,7 +12,7 @@ public class PlayerShoot : MonoBehaviour {
     
     public GameObject bullet;
 
-    void Attack()
+    public void Attack()
     {
         Vector2 direction;
         if (player.facingRight)
