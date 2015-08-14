@@ -25,6 +25,7 @@ public class PauseMenu : MonoBehaviour {
     {
         // Load another level
         // Application.LoadLevel("Menu");
+        Application.LoadLevel(Application.loadedLevel);
     }
 
     public void Exit()
