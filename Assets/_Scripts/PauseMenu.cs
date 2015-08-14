@@ -5,6 +5,7 @@ public class PauseMenu : MonoBehaviour {
 
     public GameObject pauseUI;
 
+    public GameObject mobileInput;
     private bool paused = false;
 
 
@@ -48,10 +49,12 @@ public class PauseMenu : MonoBehaviour {
         if (paused)
         {
             this.pauseUI.SetActive(true);
+            this.mobileInput.SetActive(false);
             Time.timeScale = 0;
         }
         if (!paused)
         {
+            this.mobileInput.SetActive(true);
             this.pauseUI.SetActive(false);
             Time.timeScale = 1;
         }      

@@ -22,14 +22,12 @@ public class PlayerShoot : MonoBehaviour {
 
         if (shotTimer >= shotInterval)
         {
-                GameObject bulletClone;
-                bulletClone = Instantiate(bullet, shotPoint.transform.position, shotPoint.transform.rotation) as GameObject;
-                bulletClone.GetComponent<Rigidbody2D>().velocity = direction;
+            GameObject bulletClone;
+            bulletClone = Instantiate(bullet, shotPoint.transform.position, shotPoint.transform.rotation) as GameObject;
+            bulletClone.GetComponent<Rigidbody2D>().velocity = direction;
             shotTimer = 0;
         }
     }
-
-
 
 	// Use this for initialization
 	void Start () {

@@ -91,6 +91,18 @@ public class PlayerController : MonoBehaviour
             this.rb.velocity = new Vector2(rb.velocity.x, 0);
             this.rb.AddForce(Vector2.up * this.jumpPower);
         }
+        if (wallSliding)
+        {
+            // TWEAK JUMPS OFF WALL
+            if (facingRight)
+            {
+                rb.AddForce(new Vector2(-1, wallJumpSpeed) * jumpPower);
+            }
+            else
+            {
+                rb.AddForce(new Vector2(1, wallJumpSpeed) * jumpPower);
+            }
+        }
     }
 
     public void MoveLeft()
@@ -139,8 +151,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // physics and input
-    void FixedUpdate()
+    void SimulateFriction()
     {
         // simulate Friction on x axis
         Vector3 easeVel = rb.velocity;
@@ -152,6 +163,12 @@ public class PlayerController : MonoBehaviour
         {
             rb.velocity = easeVel;
         }
+    }
+
+    // physics and input
+    void FixedUpdate()
+    {
+        SimulateFriction();
 
         // Horizontal movement
         float h = Input.GetAxis("Horizontal");
@@ -201,7 +218,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            // TWEAK JUMPS OFF WALLa
+            // TWEAK JUMPS OFF WALL
             if (facingRight)
             {
                 rb.AddForce(new Vector2(-1, wallJumpSpeed) * jumpPower);
