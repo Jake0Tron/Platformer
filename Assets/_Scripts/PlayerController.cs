@@ -291,6 +291,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+
     /// <summary>
     /// applies a simulated friction to the player (no PhysicsMaterial needed)
     /// </summary>
