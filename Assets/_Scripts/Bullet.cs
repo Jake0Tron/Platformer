@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour
 {
-
+	private PlayerController player;
     void OnTriggerEnter2D(Collider2D col)
     {
         if (!col.isTrigger)
@@ -18,5 +18,4 @@ public class Bullet : MonoBehaviour
         {
         }
     }
-
 }
