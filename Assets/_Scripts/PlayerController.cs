@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
     public int remainingHealth;
     public int maxHealth = 5;
 
-    // TODO: Pool projectiles, limit to a certain number (5? think boshy)
+    public GameMaster gm;
 
     public Rigidbody2D rb;
     public MobileControls mobi;

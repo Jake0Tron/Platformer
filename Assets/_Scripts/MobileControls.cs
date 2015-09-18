@@ -8,6 +8,7 @@ public class MobileControls : MonoBehaviour {
     public Button moveLeft, moveRight, jump, meleeButton, shootButton;
     public bool movingRight;
     public bool pushingMovementButton;
+    int directionTouch, actionTouch;
 
     private PlayerMeleeAttack melee;
     public PlayerShoot shoot;
@@ -70,16 +71,65 @@ public class MobileControls : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        if (this.pushingMovementButton)
+
+        Touch[] touches = Input.touches;
+
+        for (int i = 0; i < Input.touchCount; i++)
         {
-            if (this.movingRight)
-            {
-                Right();
+
+            if (touches[i].phase == TouchPhase.Began) { 
+                if (touches[i].position.x < 0.5f && touches[i].position.y < 0.25f)
+                {
+                    this.player.gm.debugText.text = "LEFT SIDE";
+                    this.directionTouch = touches[i].fingerId;
+                }
+                else if (touches[i].position.x > 0.5f && touches[i].position.y < 0.25f)
+                {
+                    this.player.gm.debugText.text = "RIGHT SIDE";
+                    this.actionTouch = touches[i].fingerId;
+                }
             }
-            else
+            if (touches[i].fingerId == directionTouch)
             {
-                Left();
+                // handle individual directional differences here
+                //if (touches[i].position.x){
+
+                //}
             }
+            else if (touches[i].fingerId == actionTouch)
+            {
+                // handle Action Differences here
+            }
+
+            // clear on release
+            if (touches[i].phase == TouchPhase.Ended && (touches[i].fingerId == actionTouch))
+            {
+                this.player.gm.debugText.text = "";
+                actionTouch = -1;
+            }
+            if (touches[i].phase == TouchPhase.Ended && (touches[i].fingerId == directionTouch))
+            {
+                this.player.gm.debugText.text = "";
+                directionTouch = -1;
+            }
+
         }
+
+
+
+
+
+
+            if (this.pushingMovementButton)
+            {
+                if (this.movingRight)
+                {
+                    Right();
+                }
+                else
+                {
+                    Left();
+                }
+            }
 	}
 }

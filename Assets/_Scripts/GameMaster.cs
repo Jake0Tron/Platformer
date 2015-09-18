@@ -10,6 +10,7 @@ public class GameMaster : MonoBehaviour {
     public Text pointsText;
     public Text keyInputText;
     public Text timerText;
+    public Text debugText;
 
     void Start()
     {
