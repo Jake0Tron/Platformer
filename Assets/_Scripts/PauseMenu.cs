@@ -54,8 +54,8 @@ public class PauseMenu : MonoBehaviour {
         }
         if (!paused)
         {
-            this.mobileInput.SetActive(true);
             this.pauseUI.SetActive(false);
+            this.mobileInput.SetActive(true);
             Time.timeScale = 1;
         }      
 	}

@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
     public GameMaster gm;
 
     public Rigidbody2D rb;
-    public MobileControls mobi;
+    //public MobileControls mobi;
 
     public Transform wallCheckPoint;
     public bool wallCheck;
@@ -256,7 +256,7 @@ public class PlayerController : MonoBehaviour
     #region monobehaviour
     void Start()
     {
-        this.mobi = GetComponent<MobileControls>();
+        //this.mobi = GetComponent<MobileControls>();
         this.remainingHealth = this.maxHealth;
         this.rb = gameObject.GetComponent<Rigidbody2D>();
         this.anim = gameObject.GetComponent<Animator>();
