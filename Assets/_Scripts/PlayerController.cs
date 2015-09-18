@@ -4,7 +4,6 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
     // private vars
-    private GameMaster gm;
     private Animator anim;
 
     // stats
