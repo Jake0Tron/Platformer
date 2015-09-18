@@ -30,6 +30,10 @@ public class PlayerController : MonoBehaviour
     /// speed applied to player in negative direction when on wall (to project upwards after)
     /// </summary>
     public float wallJumpSpeed = 1.5f;
+	/// <summary>
+	/// Count of number of dashes player can use
+	/// </summary>
+	public int dashCount = 0;
 
     public bool wallSliding;
     public bool grounded;
@@ -87,7 +91,7 @@ public class PlayerController : MonoBehaviour
             // double jump
             this.canDblJump = false;
             this.rb.velocity = new Vector2(rb.velocity.x, 0);
-            this.rb.AddForce(Vector2.up * this.jumpPower);
+            this.rb.AddForce(Vector2.up * this.jumpPower * 0.85f);
         }
         if (wallSliding)
         {
@@ -212,6 +216,7 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(col.gameObject);
             gm.points++;
+
         }
         else if (col.CompareTag("ManMug"))
         {
@@ -351,7 +356,11 @@ public class PlayerController : MonoBehaviour
                 {
                     wallSliding = false;
                 }
-            }
+			}
+			else
+			{
+				wallSliding = false;
+			}
         }
     }
     #endregion Monobehaviour
