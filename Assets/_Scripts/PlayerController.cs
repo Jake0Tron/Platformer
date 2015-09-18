@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     public int remainingHealth;
     public int maxHealth = 5;
 
-    private GameMaster gm;
+    public GameMaster gm;
     public Rigidbody2D rb;
     private Animator anim;
     public MobileControls mobi;
